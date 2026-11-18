@@ -21,5 +21,18 @@ Ask questions in plain English, this app converts it to SQL using Gemini AI and 
 
 ## Setup
 ### 1. Install Dependencies
-```bash
 pip install streamlit python-dotenv langchain-google-genai
+
+### 2. Create .env File
+GOOGLE_API_KEY=your_api_key_here
+
+### 3.Create Database
+Db.py
+
+### 4.Run APP
+streamlit run text_SQL.py
+
+### Eg Questions:
+How many employees in Chennai?
+Show all IT employees in Coimbatore
+Who has highest salary?
